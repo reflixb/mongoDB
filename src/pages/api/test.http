@@ -1,0 +1,24 @@
+GET http://localhost:3000/api/get
+
+###
+
+POST http://localhost:3000/api/create 
+content-type: application/json
+
+{
+    "text": "new"
+}
+
+###
+
+
+PUT http://localhost:3000/api/update?id=6493ddbd3224975901b32d50
+content-type: application/json
+
+{
+  "text" : "don't"
+}
+
+###
+
+DELETE http://localhost:3000/api/delete?id=6493df2a3224975901b39a78
